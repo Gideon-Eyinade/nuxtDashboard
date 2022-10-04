@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mono HomePage</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/d565d3e1c6.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="test2.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <div class="first">
+          <div class="first-1">T</div>
+          <div class="first-2">
+            <div class="nickname">toblinkz</div>
+            <div class="fullname">Oluwatobi Egbayelo</div>
+          </div>
+          <div class="angle-down" onclick="closeSidebar()">
+            <i class="fa-regular fa-xmark"></i>
+          </div>
+        </div>
+        <div class="second">
+          <div class="menu homee">
+            <div class="ico"><i class="fa-solid fa-house"></i></div>
+            <div onclick="home()">Home</div>
+          </div>
+          <div class="menu compliance">
+            <div class="ico"><i class="fa-solid fa-angles-right"></i></div>
+            <div onclick="compliance()">Compliance</div>
+          </div>
+          <div class="menu dash">
+            <div class="ico"><i class="fa-solid fa-compact-disc"></i></div>
+            <div>Dash</div>
+          </div>
+
+          <div class="menu app">
+            <div class="ico"><i class="fa-solid fa-arrows-spin"></i></div>
+            <div>Apps</div>
+          </div>
+        </div>
+        <div class="third">
+          <div class="connect">CONNECT</div>
+          <div class="menu-2">
+            <div class="ico"><i class="fa-solid fa-arrows-spin"></i></div>
+            <div>Customers</div>
+          </div>
+          <div class="menu-2">
+            <div class="ico"><i class="fa-solid fa-arrows-spin"></i></div>
+            <div>Statements</div>
+          </div>
+          <div class="menu-2">
+            <div class="ico"><i class="fa-solid fa-arrows-spin"></i></div>
+            <div>DirectPay</div>
+          </div>
+          <div class="menu-2">
+            <div class="ico"><i class="fa-solid fa-arrows-spin"></i></div>
+            <div>Payments</div>
+          </div>
+        </div>
+        <div class="fourth">
+          <div class="ico"><i class="fa-solid fa-compact-disc"></i></div>
+          <h3>Audit Logs</h3>
+        </div>
+      </div>
+
+      <main class="display-page">
+        <section class="home">
+          <button class="toggle" onclick="openSidebar()">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="home-1">Home</div>
+        </section>
+        <section class="welcome">
+          <div class="welcome-1">Welcome, Oluwatobi!</div>
+          <div class="welcome-2">Let's get you started with Mono</div>
+        </section>
+
+        <section class="middle">
+          <div class="middle-1">
+            <div class="setup-progress">
+              <h3>Setup Progress</h3>
+              <p>0/3</p>
+            </div>
+            <div class="hide">
+              <button class="hide-button">Hide</button>
+            </div>
+          </div>
+
+          <div class="middle-2">
+            <div class="create">
+              <h2>Create your first app</h2>
+              <p>
+                Create an App to get your API keys, start collecting data and
+                payments
+              </p>
+              <button class="create-button">Create app</button>
+            </div>
+            <div class="create">
+              <h2>Activate business</h2>
+              <p>
+                Take your business live to start connecting to live accounts
+              </p>
+              <button class="activate-button">Activate business</button>
+            </div>
+            <div class="create">
+              <h2>Fund Wallet</h2>
+              <p>
+                Fund your wallet to avoid service disruption when you go live.
+              </p>
+              <button class="fund-button">Fund wallet</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="last">
+          <div class="live-demo">
+            <div class="play-icon"><i class="fa-solid fa-play"></i></div>
+            <p>Live Demo</p>
+          </div>
+          <div class="widget-builder">
+            <div class="widget-icon"><i class="fa-solid fa-gear"></i></div>
+            <h2>Widget Builder</h2>
+            <p>Here, you can setup your widget builder</p>
+          </div>
+          <div class="guides">
+            <div class="doc-icon"><i class="fa-brands fa-buffer"></i></div>
+            <h2>Guides and Docs</h2>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
